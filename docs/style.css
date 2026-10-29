@@ -37,3 +37,4 @@ dialog{background:#fffaf4;color:#563d28;border-color:#e6bb91}
 
 
 #rlPanel select{background:white;color:#75451f;padding:8px;border:1px solid #edcfb1;border-radius:6px}#rlPanel button{margin-top:8px}#rlPanel button:disabled{opacity:.5;cursor:not-allowed}#rlStatus{font-size:12px;line-height:1.6;color:#a54c12}#rlChart{width:100%;height:80px;background:#fff5e9;border-radius:8px;margin-top:10px}
+@media(min-width:1101px){main{height:calc(100dvh - 72px);overflow:hidden}main>aside,main>article{overflow-y:auto;min-height:0;scrollbar-width:thin}#viewport{height:clamp(360px,58vh,620px)}}
